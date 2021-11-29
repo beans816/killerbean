@@ -14,14 +14,14 @@ sudo apt install git
 
 sudo apt upgrade git
 
-sudo apt-get install libc6-dev
+sudo apt-get install libc6-dev (Arch users ` sudo pamac install gcc`)
 
 
 git clone https://github.com/beans816/killerbean
 
 cd killerbean
 
-make killerbean
+make killerbean (or `gcc -o killerbean killerbean.c`)
 
 ./killerbean
 

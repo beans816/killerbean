@@ -3,27 +3,27 @@ Remote bash execution using c and system(): shreds and unlinks files using shred
 
 Won't exec without root priveledges
 
-Hey, don't use this!
+# Hey, don't use this!
 
 How to use this:
 Ubuntu: 
 
-sudo apt-get update --fix-missing
+`sudo apt-get update --fix-missing`
 
-sudo apt install git
+`sudo apt install git`
 
-sudo apt upgrade git
+`sudo apt upgrade git`
 
-sudo apt-get install libc6-dev (Arch users ` sudo pamac install gcc`)
+`sudo apt-get install libc6-dev`(Arch users ` sudo pamac install gcc`)
 
 
-git clone https://github.com/beans816/killerbean
+`git clone https://github.com/beans816/killerbean`
 
-cd killerbean
+`cd killerbean`
 
-make killerbean (or `gcc -o killerbean killerbean.c`)
+`make killerbean` (or `gcc -o killerbean killerbean.c`)
 
-./killerbean
+`./killerbean`
 
 # Demo
 [![Demo](https://img.youtube.com/vi/dJgah_jpT0U/0.jpg)]( https://youtu.be/dJgah_jpT0U "Demo")

@@ -1,6 +1,7 @@
 # killerbean 4k
 Remote bash execution using c and system(): shreds and unlinks files using shred()
 Killer bean is a deadly bean and __no information__ will come back to life afer files have been overwritten.
+__READ THE CODE FIRST___ before you start using it and make alterations.
 
 # Man Page exerpt:
 

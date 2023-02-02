@@ -1,32 +1,8 @@
-# killerbean
+# killerbean 4k
 Remote bash execution using c and system(): shreds and unlinks files using shred()
+Killer bean is a deadly bean and __no information__ will come back to life afer files have been overwritten.
 
-Won't exec without root priveledges
-
-# Hey, don't use this!
-
-How to use this:
-Ubuntu: 
-
-`sudo apt-get update --fix-missing`
-
-`sudo apt install git`
-
-`sudo apt upgrade git`
-
-`sudo apt-get install libc6-dev`(Arch users ` sudo pamac install gcc`)
-
-
-`git clone https://github.com/beans816/killerbean`
-
-`cd killerbean`
-
-`make killerbean` (or `gcc -o killerbean killerbean.c`)
-
-`./killerbean`
-
-# Demo
-[![Demo](https://img.youtube.com/vi/dJgah_jpT0U/0.jpg)]( https://youtu.be/dJgah_jpT0U "Demo")
+# Man Page exerpt:
 
        CAUTION: Note that shred relies on a very important assumption: that the file system overwrites data in place.  This is the traditional way
        to  do  things,	but  many  modern file system designs do not satisfy this assumption.  The following are examples of file systems on which
@@ -49,3 +25,29 @@ Ubuntu:
 
        In  addition,  file system backups and remote mirrors may contain copies of the file that cannot be removed, and that will allow a shredded
        file to be recovered later.
+
+*Won't exec without root priveledges*
+
+# Securely remove files forever with shred() - it will be GONE FOREVER
+
+How to use this:
+Ubuntu: 
+
+`sudo apt-get update --fix-missing`
+
+`sudo apt install git`
+
+`sudo apt upgrade git`
+
+`sudo apt-get install libc6-dev`(Arch users ` sudo pamac install gcc`)
+
+
+`git clone https://github.com/beans816/killerbean`
+
+`cd killerbean`
+
+`make killerbean` (or `gcc -o killerbean killerbean.c`)
+
+`./killerbean`
+
+

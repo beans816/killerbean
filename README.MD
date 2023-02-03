@@ -1,5 +1,5 @@
 # killerbean 4k
-Remote bash execution using c and system(): shreds and unlinks files using shred() recursively, so it will delete everything in the file specified until there is nothing left.
+Bash execution using c and system(): shreds and unlinks files using shred() recursively, so it will delete everything in the file specified until there is nothing left.
 Killer bean is a deadly bean and __no information__ will come back to life after files have been overwritten. The problem with rm() is that it simply unlinks the files, meaning that they can be recovers and are not actually deleted. All rm does is removes the __pointer in memory__ to the file. Which makes it possible to recover in linux forensics - even though it would be a pain.
 What shred() does is it __overwites the data in memory__ making it unrecoverable and gone, forever.
 
